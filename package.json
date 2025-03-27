@@ -1,0 +1,27 @@
+{
+  "name": "telegram-music-bot",
+  "version": "1.0.0",
+  "description": "Bot Telegram untuk memutar musik di grup menggunakan Node.js dan GramJS",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "@distube/ytdl-core": "^4.11.5",
+    "axios": "^1.6.0",
+    "betabotz-tools": "^1.0.0",
+    "child_process": "^1.0.2",
+    "fs-extra": "^11.1.1",
+    "gramjs": "^1.10.1",
+    "node-telegram-bot-api": "^0.61.0",
+    "path": "^0.12.7",
+    "telegraf": "^4.12.2",
+    "yt-dlp": "^0.0.1",
+    "winston": "^3.8.2"
+  },
+  "engines": {
+    "node": ">=21.0.0"
+  },
+  "author": "HanszCulsz",
+  "license": "MIT"
+}
